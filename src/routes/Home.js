@@ -1,3 +1,4 @@
+import Nweet from 'components/Nweet';
 import { dbService } from 'fBase';
 import React, { useState, useEffect } from 'react';
 
@@ -31,7 +32,7 @@ const Home = ({ userObj }) => {
     await dbService.collection('nweets').add({
       text: nweet,
       createdAt: Date.now(),
-      //   creatorId: userObj.uid,
+      creatorId: userObj.uid,
     });
     setNweet('');
   };
@@ -58,9 +59,11 @@ const Home = ({ userObj }) => {
       </form>
       <div>
         {nweets.map((nweet) => (
-          <div key={nweet.id}>
-            <h4>{nweet.text}</h4>{' '}
-          </div>
+          <Nweet
+            key={nweet.id}
+            nweetObj={nweet}
+            isOwner={nweet.creatorId === userObj.uid}
+          />
         ))}
       </div>
     </div>
