@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/study-react-firebase-twitter%20/static/css/main.51fba151.chunk.css",
+    "main.js": "/study-react-firebase-twitter%20/static/js/main.1a34fb71.chunk.js",
+    "main.js.map": "/study-react-firebase-twitter%20/static/js/main.1a34fb71.chunk.js.map",
+    "runtime-main.js": "/study-react-firebase-twitter%20/static/js/runtime-main.561dac61.js",
+    "runtime-main.js.map": "/study-react-firebase-twitter%20/static/js/runtime-main.561dac61.js.map",
+    "static/js/2.8d663b2d.chunk.js": "/study-react-firebase-twitter%20/static/js/2.8d663b2d.chunk.js",
+    "static/js/2.8d663b2d.chunk.js.map": "/study-react-firebase-twitter%20/static/js/2.8d663b2d.chunk.js.map",
+    "index.html": "/study-react-firebase-twitter%20/index.html",
+    "precache-manifest.fa2ecc6da82182596e24126565257f1d.js": "/study-react-firebase-twitter%20/precache-manifest.fa2ecc6da82182596e24126565257f1d.js",
+    "service-worker.js": "/study-react-firebase-twitter%20/service-worker.js",
+    "static/css/main.51fba151.chunk.css.map": "/study-react-firebase-twitter%20/static/css/main.51fba151.chunk.css.map",
+    "static/js/2.8d663b2d.chunk.js.LICENSE.txt": "/study-react-firebase-twitter%20/static/js/2.8d663b2d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.561dac61.js",
+    "static/js/2.8d663b2d.chunk.js",
+    "static/css/main.51fba151.chunk.css",
+    "static/js/main.1a34fb71.chunk.js"
+  ]
+}
